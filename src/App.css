@@ -23,7 +23,15 @@
   background-repeat: no-repeat;
   transition: all 0.5s ease;
 }
+.motion{
+  background: url('./disappointedkermit.jpeg');
+  min-width: 500px;
+  min-height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
+}
 .App-logo-img {
   background: url('./disappointedkermit.jpeg');
   transition: all 0.5s ease;
@@ -61,18 +69,25 @@
 
 @keyframes App-logo-change {
   0% {
-    transform: translateY(0) rotate(360deg);
+    transform: translateY(-800px) rotate(360deg);
   }
   100% {
-    transform: translateY(800px) rotate(0deg);
+    transform: translateY(0) rotate(0deg);
   }
 }
 
 .minHeight{
   min-height: 550px;
+  width: 100%;
 }
 @media screen and (max-width:767px) {
   .App-logo-img{
+    max-width: 80%;
+    min-height: 250px;
+    min-width: 80%;
+    margin: auto;
+  }
+  .motion{
     max-width: 80%;
     min-height: 250px;
     min-width: 80%;
