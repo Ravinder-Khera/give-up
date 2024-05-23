@@ -92,14 +92,14 @@ function App() {
         </p>
         <p>Don't worry and contact us.</p>
         <MyLink />
-        <a
+        {/* <a
           className="App-link"
           href="https://t.me/+eR2eTp9YgJ1mZGE1"
           target="_blank"
           rel="noopener noreferrer"
         >
           Link or something
-        </a>
+        </a> */}
         <p>We will make you give up <OcticonThumbsup16 /></p>
         <div ref={elementRef2} className={`${animationClass && 'App-logo-div'}`} id="appLogoId">
         </div>
