@@ -67,3 +67,16 @@
     transform: translateY(800px) rotate(0deg);
   }
 }
+
+@media screen and (max-width:767px) {
+  .App-logo-img{
+    max-width: 80%;
+    min-width: 80%;
+    margin: auto;
+  }
+  .App-logo-div{
+    max-width: 80%;
+    min-width: 80%;
+    margin: auto;
+  }
+}
