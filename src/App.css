@@ -68,15 +68,23 @@
   }
 }
 
+.minHeight{
+  min-height: 550px;
+}
 @media screen and (max-width:767px) {
   .App-logo-img{
     max-width: 80%;
+    min-height: 250px;
     min-width: 80%;
     margin: auto;
   }
   .App-logo-div{
     max-width: 80%;
+    min-height: 250px;
     min-width: 80%;
     margin: auto;
+  }
+  .minHeight{
+    min-height: 250px;
   }
 }

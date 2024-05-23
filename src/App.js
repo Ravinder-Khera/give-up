@@ -58,7 +58,7 @@ function App() {
           Link or something
         </a>
         <p>We will make you give up <OcticonThumbsup16 /></p>
-        <div style={{minHeight:'550px'}}></div>
+        <div className='minHeight'></div>
       </header>
     </div>
     <p >Don't worry we are genuine</p>
