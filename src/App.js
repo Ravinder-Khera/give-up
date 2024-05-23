@@ -57,6 +57,7 @@ function App() {
         >
           Link or something
         </a>
+        
   <p>We will make you give up <OcticonThumbsup16 /></p>
   <div className='minHeight'></div>
       </header>

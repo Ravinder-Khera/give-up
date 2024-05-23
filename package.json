@@ -7,6 +7,8 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.3.1",
+    "prettier": "^3.2.5",
+    "pretty-quick": "^4.0.0",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
@@ -16,13 +18,9 @@
     "build": "react-scripts build",
     "test": "cross-env CI=true react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "lint": "eslint src"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint && npm test",
-      "pre-push": "npm run lint && npm test"
-    }
+    "lint": "eslint src",
+    "prepare": "husky install",
+    "format": "pretty-quick --staged"
   },
   "eslintConfig": {
     "extends": [
@@ -43,7 +41,7 @@
     ]
   },
   "devDependencies": {
-    "husky": "^9.0.11",
-    "prettier": "^3.2.5"
+    "env-cmd": "^10.1.0",
+    "husky": "^8.0.0"
   }
 }
