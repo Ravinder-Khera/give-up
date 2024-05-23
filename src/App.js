@@ -57,8 +57,8 @@ function App() {
         >
           Link or something
         </a>
-        <p>We will make you give up <OcticonThumbsup16 /></p>
-        <div className='minHeight'></div>
+  <p>We will make you give up <OcticonThumbsup16 /></p>
+  <div className='minHeight'></div>
       </header>
     </div>
     <p >Don't worry we are genuine</p>
